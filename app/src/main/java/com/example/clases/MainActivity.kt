@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
             mostrarToast(nombre);
         }
 
+        //ejercicio 1 clase 3 Activities Intent
         botonporcen.setOnClickListener {
             startActivity(Intent(this, viewActivity1::class.java));
         }
