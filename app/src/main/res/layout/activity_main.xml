@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Ejercicio 1 de la presentacion Clase 2 intro android   -->
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="@string/universidad"
+        android:textSize="24sp"
+        android:background="@color/turquesa"/>
+
+    <!-- Fin del ejericiio 1 de la presentacion Clase 2 intro android    -->
+
+    <!-- Ejercicio 2 de la presentacion Clase 2 intro android   -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/abecedario" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/numeros"
+        android:gravity="center"/>
+
+    <!-- Fin del Ejercicio 2 de la presentacion Clase 2 intro android   -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@mipmap/descarga"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Nombre" />
+
+        <Button
+            android:id="@+id/boton_hola"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hola"
+            android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/boton_cambio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculo de porcentajes"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

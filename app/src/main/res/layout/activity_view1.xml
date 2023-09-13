@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculo de Porcentjes"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:id="@+id/editnumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Numero"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/editporcentaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Porcentaje"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/botonPorcentaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="calcular porcentaje"
+        android:layout_margin="10dp"/>
+
+
+
+
+
+</LinearLayout>
