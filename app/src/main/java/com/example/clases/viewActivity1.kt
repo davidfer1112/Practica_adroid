@@ -13,6 +13,10 @@ class viewActivity1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_view1)
 
+        val  nombre =  intent.getStringExtra("nombre")
+        Toast.makeText(applicationContext, "Hola " + nombre + " ya puedes calcular el porcentaje", Toast.LENGTH_LONG).show();
+
+
         //llamada de la funcion
         calcular();
 
