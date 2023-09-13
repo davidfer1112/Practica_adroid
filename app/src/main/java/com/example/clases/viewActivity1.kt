@@ -2,6 +2,7 @@ package com.example.clases
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -13,9 +14,14 @@ class viewActivity1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_view1)
 
+        // recibir datos de otra actividad y mostrarlo en un toast
         val  nombre =  intent.getStringExtra("nombre")
         Toast.makeText(applicationContext, "Hola " + nombre + " ya puedes calcular el porcentaje", Toast.LENGTH_LONG).show();
 
+        //manenejo de mensajes por consola
+        Log.i("Myapp","informacion")
+        Log.w("Myapp","advertencia")
+        Log.e("Myapp","Error")
 
         //llamada de la funcion
         calcular();

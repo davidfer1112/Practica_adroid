@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         //ejercicio 1 clase 3 Activities Intent
         botonporcen.setOnClickListener {
             val intent = Intent(this, viewActivity1::class.java)
+            //ejercicio 2 clase 3 Activities Intent
             intent.putExtra("nombre",editnom.text.toString()) // enviar datos a otra actividad
             startActivity(intent);
         }
