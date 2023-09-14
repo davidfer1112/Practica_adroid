@@ -64,4 +64,11 @@
         android:text="Calculo de porcentajes"
         android:layout_margin="10dp"/>
 
+    <Button
+        android:id="@+id/boton_juego_adivinanza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Juego Adivinanza"
+        android:layout_margin="10dp"/>
+
 </LinearLayout>

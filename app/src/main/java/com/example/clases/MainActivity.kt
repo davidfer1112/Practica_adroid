@@ -14,10 +14,19 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        actividadPrin();
+        
+
+
+    }
+
+    fun actividadPrin(){
+
         //definir un boton y enlazarlo con un elemento
         val botnHola:Button = findViewById(R.id.boton_hola);
         val editnom:EditText = findViewById(R.id.edit1);
-        val botonporcen:Button = findViewById(R.id.boton_cambio)
+        val botonporcen:Button = findViewById(R.id.boton_cambio);
+        val botonjuegoadi:Button = findViewById(R.id.boton_juego_adivinanza);
 
         // Escucha al boton, es decir que cada vez que se presione el boton realiza lo que este adentro
         botnHola.setOnClickListener{
@@ -32,8 +41,6 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("nombre",editnom.text.toString()) // enviar datos a otra actividad
             startActivity(intent);
         }
-
-
 
 
     }
