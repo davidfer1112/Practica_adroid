@@ -1,9 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".juego_adivinanzas">
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Juego de adivinanza"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="@string/descripcion_juego"/>
+
+    <EditText
+        android:id="@+id/edit_adivinar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adivina"
+        android:layout_margin="10dp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/boton_adivina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Adivina"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/pista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/cantidad_intentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

@@ -3,4 +3,8 @@
     <string name="universidad">Universidad Javeriana</string>
     <string name="abecedario">abcdefghijklmnopqrstuvwxyz</string>
     <string name="numeros">1245678910</string>
+    <string name="descripcion_juego">Tiene que ingresar un número para ver  si lo acierta,
+                                     se le va a indicar si se encuentra abajo o arriba del número a adivinar, con estas
+                                     indicaciones tiene que acercarse más al valor y acertar.
+    </string>
 </resources>

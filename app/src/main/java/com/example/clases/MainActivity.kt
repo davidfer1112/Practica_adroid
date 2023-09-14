@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         actividadPrin();
-        
+
 
 
     }
@@ -40,6 +40,11 @@ class MainActivity : AppCompatActivity() {
             //ejercicio 2 clase 3 Activities Intent
             intent.putExtra("nombre",editnom.text.toString()) // enviar datos a otra actividad
             startActivity(intent);
+        }
+
+        botonjuegoadi.setOnClickListener {
+            val intent = Intent(this,juego_adivinanzas::class.java)
+            startActivity(intent)
         }
 
 
