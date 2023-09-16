@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.clases">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,6 +16,9 @@
         android:theme="@style/Theme.Clases"
         tools:targetApi="31">
         <activity
+            android:name=".vistaweb"
+            android:exported="false" />
+        <activity
             android:name=".spinner"
             android:exported="false" />
         <activity
@@ -20,9 +26,6 @@
             android:exported="false" />
         <activity
             android:name=".viewActivity1"
-            android:exported="false" />
-        <activity
-            android:name=".view"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

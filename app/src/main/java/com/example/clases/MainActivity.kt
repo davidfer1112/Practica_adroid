@@ -30,6 +30,8 @@ class MainActivity : AppCompatActivity() {
         val botonjuegoadi:Button = findViewById(R.id.boton_juego_adivinanza);
         val botonspinner:Button = findViewById(R.id.boton_spinner);
         val spinneredu:Spinner = findViewById(R.id.spinner_educacion);
+        val botonweb:Button = findViewById(R.id.boton_web)
+
 
         // Escucha al boton, es decir que cada vez que se presione el boton realiza lo que este adentro
         botnHola.setOnClickListener{
@@ -61,6 +63,14 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intent)
         }
+
+        botonweb.setOnClickListener {
+
+            val intent = Intent(this, vistaweb::class.java)
+
+            startActivity(intent)
+        }
+
 
 
     }
