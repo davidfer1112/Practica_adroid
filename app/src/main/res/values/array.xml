@@ -3,6 +3,7 @@
 
     <!-- Arreglo de nivel educatio   -->
     <string-array name="nivelEducativo">
+        <item>Selecciona una opcion</item>
         <item>Primaria</item>
         <item>Bachiderato</item>
         <item>Tacnico</item>

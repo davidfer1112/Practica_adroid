@@ -11,6 +11,8 @@ class vistaweb : AppCompatActivity() {
         setContentView(R.layout.activity_vistaweb)
 
         val webView: WebView = findViewById(R.id.vistaweb)
-        webView.loadUrl("https://www.javeriana.edu.co/inicio")
+//        webView.loadUrl("https://www.javeriana.edu.co/inicio")
+        webView.loadUrl("https://www.google.com")
+
     }
 }
