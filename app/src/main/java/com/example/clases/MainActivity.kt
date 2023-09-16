@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
         val botonspinner:Button = findViewById(R.id.boton_spinner);
         val spinneredu:Spinner = findViewById(R.id.spinner_educacion);
         val botonweb:Button = findViewById(R.id.boton_web)
+        val botonlista:Button = findViewById(R.id.boton_vista_lista)
 
 
         // Escucha al boton, es decir que cada vez que se presione el boton realiza lo que este adentro
@@ -71,6 +72,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        botonlista.setOnClickListener {
+
+            val intent = Intent(this, vistalista::class.java)
+
+            startActivity(intent)
+
+        }
 
 
     }

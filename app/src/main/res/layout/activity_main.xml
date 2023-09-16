@@ -91,6 +91,12 @@
         android:text="vista web"
         android:layout_margin="10dp"/>
 
+    <Button
+        android:id="@+id/boton_vista_lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="vista Lista"
+        android:layout_margin="10dp"/>
 
 
 
