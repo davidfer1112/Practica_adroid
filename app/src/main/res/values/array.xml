@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Arreglo de nivel educatio   -->
+    <string-array name="nivelEducativo">
+        <item>Primaria</item>
+        <item>Bachiderato</item>
+        <item>Tacnico</item>
+        <item>Profecional</item>
+        <item>Maestria</item>
+        <item>Doctorado</item>
+    </string-array>
+
+</resources>

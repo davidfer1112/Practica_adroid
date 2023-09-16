@@ -71,4 +71,17 @@
         android:text="Juego Adivinanza"
         android:layout_margin="10dp"/>
 
+    <Spinner
+        android:id="@+id/spinner_educacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/nivelEducativo" />
+
+    <Button
+        android:id="@+id/boton_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar informacion spinner"
+        android:layout_margin="10dp"/>
+
 </LinearLayout>
