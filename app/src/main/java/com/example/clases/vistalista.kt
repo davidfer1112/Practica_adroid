@@ -2,8 +2,10 @@ package com.example.clases
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.ListView
+import android.widget.Toast
 
 class vistalista : AppCompatActivity() {
 
@@ -19,6 +21,13 @@ class vistalista : AppCompatActivity() {
         val listView:ListView = findViewById(R.id.vistadelista)
 
         listView.adapter = adapter
+
+        listView.setOnItemClickListener(AdapterView.OnItemClickListener { _, _, position, _ ->
+            val selectedElement = arreglo[position]
+            Toast.makeText(this@vistalista, selectedElement, Toast.LENGTH_SHORT).show()
+        })
+
+
 
     }
 
