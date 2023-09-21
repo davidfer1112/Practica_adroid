@@ -98,6 +98,12 @@
         android:text="vista Lista"
         android:layout_margin="10dp"/>
 
+    <Button
+        android:id="@+id/boton_vista_json"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="vista lista JSON"
+        android:layout_margin="10dp"/>
 
 
 

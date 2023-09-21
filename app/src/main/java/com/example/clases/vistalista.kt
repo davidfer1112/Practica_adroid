@@ -24,19 +24,12 @@ class vistalista : AppCompatActivity() {
 
         listView.setOnItemClickListener(AdapterView.OnItemClickListener { _, _, position, _ ->
             val selectedElement = arreglo[position]
-            Toast.makeText(this@vistalista, selectedElement, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@vistalista, selectedElement, Toast.LENGTH_LONG).show()
         })
-
-
 
     }
 
     fun arrayinicial(){
-
-//        for(i in arreglo.indices){
-//            arreglo[i] = if( i%2 == 0) "hola" else "chao"
-//        }
-
         arreglo = resources.getStringArray(R.array.paisesLatam)
 
     }

@@ -1,0 +1,153 @@
+{
+  "paises":[
+    { "capital" : "Berlin",
+      "nombre_pais" : "Alemania",
+      "nombre_pais_int" : "Germany",
+      "sigla" : "DE"
+    },
+
+    { "capital" : "Buenos Aires",
+      "nombre_pais" : "Argentina",
+      "nombre_pais_int" : "Argentina",
+      "sigla" : "AR"
+    },
+
+    { "capital" : "Canberra",
+      "nombre_pais" : "Australia",
+      "nombre_pais_int" : "Australia",
+      "sigla" : "AU"
+    },
+    
+    { "capital" : "Viena",
+      "nombre_pais" : "Austria",
+      "nombre_pais_int" : "Austria",
+      "sigla" : "AT"
+    },
+
+    { "capital" : "Bruselas",
+      "nombre_pais" : "Bélgica",
+      "nombre_pais_int" : "Belgium",
+      "sigla" : "BE"
+    },
+
+    { "capital" : "La Paz",
+      "nombre_pais" : "Bolívia",
+      "nombre_pais_int" : "Bolivia",
+      "sigla" : "BO"
+    },
+
+    { "capital" : "Brasilia",
+      "nombre_pais" : "Brasil",
+      "nombre_pais_int" : "Brazil",
+      "sigla" : "BR"
+    },
+
+
+    { "capital" : "Santiago",
+      "nombre_pais" : "Chile",
+      "nombre_pais_int" : "Chile",
+      "sigla" : "CL"
+    },
+
+    { "capital" : "Bogotá",
+      "nombre_pais" : "Colombia",
+      "nombre_pais_int" : "Colombia",
+      "sigla" : "CO"
+    },
+
+
+    { "capital" : "La Habana",
+      "nombre_pais" : "Cuba",
+      "nombre_pais_int" : "Cuba",
+      "sigla" : "CU"
+    },
+
+
+    { "capital" : "Quito",
+      "nombre_pais" : "Ecuador",
+      "nombre_pais_int" : "Ecuador",
+      "sigla" : "EC"
+    },
+
+    { "capital" : "Madrid",
+      "nombre_pais" : "España",
+      "nombre_pais_int" : "Spain",
+      "sigla" : "ES"
+    },
+    { "capital" : "Washington",
+      "nombre_pais" : "Estados Unidos",
+      "nombre_pais_int" : "United States",
+      "sigla" : "US"
+    },
+
+    { "capital" : "Paris",
+      "nombre_pais" : "Francia",
+      "nombre_pais_int" : "France",
+      "sigla" : "FR"
+    },
+
+    { "capital" : "Londres",
+      "nombre_pais" : "Reino Unido",
+      "nombre_pais_int" : "United Kingdom",
+      "sigla" : "GB"
+    },
+
+    { "capital" : "Atenas",
+      "nombre_pais" : "Grecia",
+      "nombre_pais_int" : "Greece",
+      "sigla" : "GR"
+    },
+
+    { "capital" : "Amsterdam",
+      "nombre_pais" : "Holanda",
+      "nombre_pais_int" : "Netherlands",
+      "sigla" : "NL"
+    },
+
+    { "capital" : "Budapest",
+      "nombre_pais" : "Hungria",
+      "nombre_pais_int" : "Hungary",
+      "sigla" : "HU"
+    },
+
+
+    { "capital" : "Dublin",
+      "nombre_pais" : "Irlanda",
+      "nombre_pais_int" : "Ireland",
+      "sigla" : "IE"
+    },
+    { "capital" : "Reykjavik",
+      "nombre_pais" : "Islandia",
+      "nombre_pais_int" : "Iceland",
+      "sigla" : "IS"
+    },
+    { "capital" : "Jerusalen",
+      "nombre_pais" : "Israel",
+      "nombre_pais_int" : "Israel",
+      "sigla" : "IL"
+    },
+    { "capital" : "Roma",
+      "nombre_pais" : "Italia",
+      "nombre_pais_int" : "Italy",
+      "sigla" : "IT"
+    },
+
+    { "capital" : "Tokyo",
+      "nombre_pais" : "Japón",
+      "nombre_pais_int" : "Japan",
+      "sigla" : "JP"
+    },
+
+    { "capital" : "Montevideo",
+      "nombre_pais" : "Uruguay",
+      "nombre_pais_int" : "Uruguay",
+      "sigla" : "UY"
+    },
+
+    { "capital" : "Caracas",
+      "nombre_pais" : "Venezuela",
+      "nombre_pais_int" : "Venezuela",
+      "sigla" : "VE"
+    }
+  ]
+}
