@@ -1,5 +1,6 @@
 package com.example.clases
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.AdapterView
@@ -36,6 +37,14 @@ class vistalistajson : AppCompatActivity() {
 
         val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, listaNombresPaises)
         vistalistajson.adapter = adapter
+
+
+        vistalistajson.setOnItemClickListener { _, _, position, _ ->
+            val nombrePaisSeleccionado = listaNombresPaises[position]
+            val intent = Intent(this, detallepais::class.java)
+            intent.putExtra("nombre_pais", nombrePaisSeleccionado)
+            startActivity(intent)
+        }
 
     }
 

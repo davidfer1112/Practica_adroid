@@ -4,4 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="turquesa">#34ebe1</color>
     <color name="morado">#711991</color>
+    <color name="verde">#61eb34</color>
+    <color name="rojo">#eb4634</color>
 </resources>

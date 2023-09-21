@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         val botonweb:Button = findViewById(R.id.boton_web)
         val botonlista:Button = findViewById(R.id.boton_vista_lista)
         val botonlistajson:Button = findViewById(R.id.boton_vista_json);
-
+        val botonpermisos:Button = findViewById(R.id.boton_permisos)
 
         // Escucha al boton, es decir que cada vez que se presione el boton realiza lo que este adentro
         botnHola.setOnClickListener{
@@ -84,6 +84,14 @@ class MainActivity : AppCompatActivity() {
         botonlistajson.setOnClickListener {
 
             val intent = Intent(this, vistalistajson::class.java)
+
+            startActivity(intent)
+
+        }
+
+        botonpermisos.setOnClickListener {
+
+            val intent  = Intent(this, permisos::class.java)
 
             startActivity(intent)
 

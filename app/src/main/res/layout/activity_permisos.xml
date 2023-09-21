@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".permisos"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/botonimg_contactos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/imgcontacto"
+        android:contentDescription="Permiso contactos"/>
+
+
+    <ImageButton
+        android:id="@+id/botonimg_camara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/imgcamara"
+        android:contentDescription="Permiso contactos"/>
+    
+    
+    
+</LinearLayout>

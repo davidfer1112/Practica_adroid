@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".detallepais">
+
+  <TextView
+      android:id="@+id/textViewNombrePais"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Nombre del País:"
+      android:textStyle="bold"
+      android:textSize="18sp"
+      android:layout_marginTop="16dp"/>
+
+  <TextView
+      android:id="@+id/textViewCapital"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Capital:"
+      android:textSize="16sp"/>
+
+  <TextView
+      android:id="@+id/textViewNombreIngles"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Nombre en Inglés:"
+      android:textSize="16sp"/>
+
+  <TextView
+      android:id="@+id/textViewSigla"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Sigla:"
+      android:textSize="16sp"/>
+
+</LinearLayout>
