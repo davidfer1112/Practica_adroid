@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1049041529801",
+    "firebase_url": "https://enduring-lane-380515-default-rtdb.firebaseio.com",
+    "project_id": "enduring-lane-380515",
+    "storage_bucket": "enduring-lane-380515.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049041529801:android:aee5c38761d36819dfd618",
+        "android_client_info": {
+          "package_name": "com.example.clases"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHEsCx7f62azQ_SONmQrr8Dk36G4yLP3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

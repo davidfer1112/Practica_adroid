@@ -7,9 +7,14 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.ktx.Firebase
 import java.lang.NumberFormatException
 
 class viewActivity1 : AppCompatActivity() {
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_view1)
@@ -18,6 +23,9 @@ class viewActivity1 : AppCompatActivity() {
         val  nombre =  intent.getStringExtra("nombre")
         Toast.makeText(applicationContext, "Hola " + nombre + " ya puedes calcular el porcentaje", Toast.LENGTH_LONG).show();
 
+
+
+
         //manenejo de mensajes por consola
         Log.i("Myapp","informacion")
         Log.w("Myapp","advertencia")
@@ -25,6 +33,9 @@ class viewActivity1 : AppCompatActivity() {
 
         //llamada de la funcion
         calcular();
+
+
+
 
 
     }
